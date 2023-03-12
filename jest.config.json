@@ -1,0 +1,21 @@
+{
+  "testEnvironment": "jsdom",
+  "testPathIgnorePatterns": ["/node_modules/"],
+  "collectCoverage": false,
+  "collectCoverageFrom": [
+    "src/**/*.ts(x)?",
+    "!src/**/stories.tsx",
+    "!src/pages/**/*.tsx",
+    "!src/styles/**/*.ts",
+    "!src/models/**/*.ts",
+    "!src/**/**/mock.ts",
+    "!src/types/**/*.d.ts"
+  ],
+  "testMatch": ["<rootDir>/src/**/**/test.tsx"],
+  "setupFilesAfterEnv": ["<rootDir>/.jest/setup.ts"],
+  "moduleNameMapper": {
+    "^styled-components": "<rootDir>/node_modules/styled-components/dist/styled-components.browser.cjs.js"
+  },
+  "moduleDirectories": ["node_modules", "src"],
+  "modulePaths": ["<rootDir>/src/", "<rootDir>/.jest"]
+}
