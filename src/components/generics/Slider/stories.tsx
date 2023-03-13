@@ -37,7 +37,7 @@ const Slide = styled.div`
 `;
 
 export const Basic: Story = () => (
-  <div style={{ maxWidth: '130rem', margin: '0 auto' }}>
+  <div style={{ maxWidth: '138rem', margin: '0 auto' }}>
     <Slider settings={settings}>
       <Slide>1</Slide>
       <Slide>2</Slide>

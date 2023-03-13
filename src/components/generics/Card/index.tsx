@@ -4,9 +4,15 @@ import * as S from './styles';
 export type CardProps = {
   isFlippable?: boolean;
   children: React.ReactNode;
+  onFlip?: () => void;
 } & HTMLAttributes<HTMLDivElement>;
 
-const Card = ({ isFlippable = false, children, ...props }: CardProps) => {
+const Card = ({
+  isFlippable = false,
+  onFlip,
+  children,
+  ...props
+}: CardProps) => {
   const [isFlipped, setIsFlipped] = useState(isFlippable);
 
   useEffect(() => {
@@ -14,11 +20,7 @@ const Card = ({ isFlippable = false, children, ...props }: CardProps) => {
   }, [isFlippable]);
 
   return (
-    <S.Wrapper
-      isFlipped={isFlipped}
-      onMouseLeave={() => setIsFlipped(false)}
-      {...props}
-    >
+    <S.Wrapper isFlipped={isFlipped} onMouseLeave={onFlip} {...props}>
       {children}
     </S.Wrapper>
   );

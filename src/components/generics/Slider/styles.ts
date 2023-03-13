@@ -1,129 +1,137 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const Wrapper = styled.section`
-  .slick-slider {
-    position: relative;
+  ${({ theme }) => css`
+    .slick-slider {
+      position: relative;
 
-    display: block;
-    box-sizing: border-box;
+      display: block;
+      box-sizing: border-box;
 
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
 
-    -webkit-touch-callout: none;
-    -khtml-user-select: none;
-    -ms-touch-action: pan-y;
-    touch-action: pan-y;
-    -webkit-tap-highlight-color: transparent;
-  }
-
-  .slick-slider.slick-initialized {
-    svg {
-      width: fit-content !important;
+      -webkit-touch-callout: none;
+      -khtml-user-select: none;
+      -ms-touch-action: pan-y;
+      touch-action: pan-y;
+      -webkit-tap-highlight-color: transparent;
     }
-  }
 
-  .slick-list {
-    position: relative;
+    .slick-slider.slick-initialized {
+      svg {
+        width: fit-content !important;
+      }
+    }
 
-    display: block;
-    overflow: hidden;
+    .slick-list {
+      position: relative;
 
-    margin: 0;
-    padding: 0;
-  }
+      display: block;
+      overflow: hidden;
 
-  .slick-list:focus {
-    outline: none;
-  }
+      margin: 0;
+      padding: 0;
+    }
 
-  .slick-list.dragging {
-    cursor: pointer;
-    cursor: hand;
-  }
+    .slick-list:focus {
+      outline: none;
+    }
 
-  .slick-slider .slick-track,
-  .slick-slider .slick-list {
-    -webkit-transform: translate3d(0, 0, 0);
-    -moz-transform: translate3d(0, 0, 0);
-    -ms-transform: translate3d(0, 0, 0);
-    -o-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
+    .slick-list.dragging {
+      cursor: pointer;
+      cursor: hand;
+    }
 
-  .slick-track {
-    position: relative;
-    top: 0;
-    left: 0;
+    .slick-slider .slick-track,
+    .slick-slider .slick-list {
+      -webkit-transform: translate3d(0, 0, 0);
+      -moz-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0);
+      -o-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
 
-    display: block;
-  }
-  .slick-track:before,
-  .slick-track:after {
-    display: table;
-    content: '';
-  }
+    .slick-track {
+      position: relative;
+      top: 0;
+      left: 0;
 
-  .slick-track:after {
-    clear: both;
-  }
-
-  .slick-loading .slick-track {
-    visibility: hidden;
-  }
-
-  .slick-slide {
-    display: none;
-    float: left;
-    height: 100%;
-    min-height: 1px;
-  }
-
-  [dir='rtl'] .slick-slide {
-    float: right;
-  }
-
-  .slick-slide img {
-    display: block;
-  }
-
-  .slick-slide.slick-loading img {
-    display: none;
-  }
-
-  .slick-slide.dragging img {
-    pointer-events: none;
-  }
-
-  .slick-initialized {
-    .slick-slide {
       display: block;
     }
-  }
+    .slick-track:before,
+    .slick-track:after {
+      display: table;
+      content: '';
+    }
 
-  .slick-loading {
-    .slick-slide {
+    .slick-track:after {
+      clear: both;
+    }
+
+    .slick-loading .slick-track {
       visibility: hidden;
     }
-  }
 
-  .slick-arrow {
-    position: absolute;
-    top: 50%;
-    cursor: pointer;
+    .slick-slide {
+      display: none;
+      float: left;
+      height: 100%;
+      min-height: 1px;
+    }
 
-    &.slick-hidden {
+    [dir='rtl'] .slick-slide {
+      float: right;
+    }
+
+    .slick-slide img {
+      display: block;
+    }
+
+    .slick-slide.slick-loading img {
       display: none;
     }
 
-    &.slick-next {
-      right: -4rem;
+    .slick-slide.dragging img {
+      pointer-events: none;
     }
 
-    &.slick-prev {
-      left: -5rem;
+    .slick-initialized {
+      .slick-slide {
+        display: block;
+      }
     }
-  }
+
+    .slick-loading {
+      .slick-slide {
+        visibility: hidden;
+      }
+    }
+
+    .slick-arrow {
+      position: absolute;
+      top: -5rem;
+      right: 0;
+
+      cursor: pointer;
+
+      &.slick-hidden {
+        display: none;
+      }
+
+      &.slick-next {
+      }
+
+      &.slick-prev {
+        right: 6rem;
+      }
+
+      &.slick-disabled {
+        background: ${theme.colors.gray};
+        cursor: not-allowed;
+      }
+    }
+  `}
 `;

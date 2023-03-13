@@ -2,7 +2,7 @@
 
 exports[`<Slider /> should render children as slider item 1`] = `
 <section
-  class="sc-beySbM gENQIV"
+  class="sc-beySbM cJLQux"
 >
   <div
     class="slick-slider slick-initialized"

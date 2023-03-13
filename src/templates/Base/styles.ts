@@ -10,10 +10,10 @@ export const Wrapper = styled.div`
 
 export const HeaderSection = styled.div`
   ${({ theme }) => css`
-    height: 6rem;
     display: flex;
     align-items: center;
     font-size: ${theme.font.sizes.xlarge};
+    min-height: 5rem;
   `}
 `;
 

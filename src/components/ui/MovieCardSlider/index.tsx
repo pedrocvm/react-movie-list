@@ -5,7 +5,6 @@ import { ArrowBackIos as ArrowLeft } from '@styled-icons/material-outlined/Arrow
 import { ArrowForwardIos as ArrowRight } from '@styled-icons/material-outlined/ArrowForwardIos';
 
 import * as S from './styles';
-import Card from 'components/generics/Card';
 
 export type MovieCardSliderProps = {
   movies: MovieCardProps[];
@@ -13,6 +12,7 @@ export type MovieCardSliderProps = {
 
 const settings: SliderSettings = {
   slidesToShow: 3.5,
+  slidesToScroll: 3,
   infinite: false,
   lazyLoad: 'ondemand',
   responsive: [
@@ -45,8 +45,16 @@ const settings: SliderSettings = {
       }
     }
   ],
-  nextArrow: <ArrowRight aria-label="Next Movie" size={30} />,
-  prevArrow: <ArrowLeft aria-label="Previous Movie" size={30} />
+  nextArrow: (
+    <S.CustomArrow>
+      <ArrowRight aria-label="Next Movie" size={25} />
+    </S.CustomArrow>
+  ),
+  prevArrow: (
+    <S.CustomArrow>
+      <ArrowLeft aria-label="Previous Movie" size={25} />
+    </S.CustomArrow>
+  )
 };
 
 const MovieCardSlider = ({ movies }: MovieCardSliderProps) => (
@@ -55,20 +63,8 @@ const MovieCardSlider = ({ movies }: MovieCardSliderProps) => (
       {movies.map((movie, index) => (
         <MovieCard key={index} {...movie} />
       ))}
-
-      <S.CustomCard>
-        <p>See all</p>
-        <Card>
-          <img
-            src={`${process.env.REACT_APP_POSTER_URL}${
-              movies[movies.length - 1].poster_path
-            }`}
-            alt="see all movies"
-          />
-        </Card>
-      </S.CustomCard>
     </Slider>
   </S.Wrapper>
 );
 
-export default MovieCardSlider;
+export default React.memo(MovieCardSlider);

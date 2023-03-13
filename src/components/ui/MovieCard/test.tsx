@@ -20,16 +20,13 @@ describe('MovieCard', () => {
     renderWithTheme(<MovieCard {...props} />);
 
     expect(screen.getByText(props.title)).toBeInTheDocument();
-    expect(screen.getByAltText(props.title)).toBeInTheDocument();
+    expect(screen.getByAltText(`outer-bg-${props.title}`)).toBeInTheDocument();
 
     expect(
       screen.getByText(
         /Queen Ramonda, Shuri, M'Baku, Okoye and the Dora Milaje/i
       )
     ).toBeInTheDocument();
-
-    const readMore = screen.getByText('Read more');
-    expect(readMore).toBeInTheDocument();
 
     expect(
       screen.getByText(
@@ -40,14 +37,5 @@ describe('MovieCard', () => {
     expect(
       screen.getByText(dateFormatter(props.release_date))
     ).toBeInTheDocument();
-  });
-
-  it('should not render read more if overview length is less than 320', () => {
-    const shortOverview =
-      'Queen Ramonda, Shuri, M’Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers.';
-
-    renderWithTheme(<MovieCard {...props} overview={shortOverview} />);
-
-    expect(screen.queryByText('Read more')).not.toBeInTheDocument();
   });
 });

@@ -12,7 +12,7 @@ export default {
 } as Meta;
 
 export const Basic: Story<MovieCardSliderProps> = (args) => (
-  <div style={{ maxWidth: '130rem', margin: '0 auto' }}>
+  <div style={{ maxWidth: '138rem', margin: '0 auto' }}>
     <MovieCardSlider {...args} />
   </div>
 );

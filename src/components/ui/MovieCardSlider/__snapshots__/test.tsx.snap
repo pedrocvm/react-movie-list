@@ -1,0 +1,334 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MovieCardSlider /> should render with 4 active items 1`] = `
+<div
+  class="sc-qZqnM"
+>
+  <section
+    class="sc-fsYeqs idPuow"
+  >
+    <div
+      class="slick-slider slick-initialized"
+      dir="ltr"
+    >
+      <button
+        class="sc-jsEegt djBNMM slick-arrow slick-prev slick-disabled"
+        data-role="none"
+        style="display: block;"
+      >
+        <svg
+          aria-hidden="true"
+          aria-label="Previous Movie"
+          class="StyledIconBase-sc-ea9ulj-0 kEyKEb"
+          fill="currentColor"
+          focusable="false"
+          height="25"
+          viewBox="0 0 24 24"
+          width="25"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M17.51 3.87 15.73 2.1 5.84 12l9.9 9.9 1.77-1.77L9.38 12l8.13-8.13z"
+          />
+        </svg>
+      </button>
+      <div
+        class="slick-list"
+      >
+        <div
+          class="slick-track"
+          style="opacity: 1; transform: translate3d(0px, 0px, 0px);"
+        >
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active slick-current"
+            data-index="0"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="sc-iBdmCd feTNVU"
+                data-testid="movie-card"
+                title="Black Panther: Wakanda Forever"
+              >
+                <div
+                  class="sc-guDLRT iPhJbk"
+                >
+                  <img
+                    alt="outer-bg-Black Panther: Wakanda Forever"
+                    class="sc-dmyDGi fVFhvg"
+                    src="undefined/sv1xJUazXeYqALzczSZ3O6nkH75.jpg"
+                  />
+                </div>
+                <div
+                  class="sc-hLQRIN hoWzpa"
+                >
+                  <img
+                    alt="inner-bg-Black Panther: Wakanda Forever"
+                    class="sc-dmyDGi fVFhvg"
+                    src="undefined/sv1xJUazXeYqALzczSZ3O6nkH75.jpg"
+                  />
+                  <div
+                    class="sc-eDLJxc hYIPLq"
+                  >
+                    Black Panther: Wakanda Forever
+                  </div>
+                  <div
+                    class="sc-jTQDnj"
+                  >
+                    Queen Ramonda, Shuri, M'Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers in the wake of King T’Challa’s death.  As the Wakandans strive to embrace their next chapter, the heroes must band together with the help of War Dog Nakia and Everett Ross and forge a new path for the kingdom of Wakanda.
+                  </div>
+                  <div
+                    class="sc-gLLvby dHgdeZ"
+                  >
+                    <strong>
+                      Rating
+                    </strong>
+                    7.30
+                     of 
+                    3977
+                     votes
+                  </div>
+                  <div
+                    class="sc-gLLvby dHgdeZ"
+                  >
+                    <strong>
+                      Release Date
+                    </strong>
+                    09/11/2022
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active"
+            data-index="1"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="sc-iBdmCd feTNVU"
+                data-testid="movie-card"
+                title="Shark Side of the Moon"
+              >
+                <div
+                  class="sc-guDLRT iPhJbk"
+                >
+                  <img
+                    alt="outer-bg-Shark Side of the Moon"
+                    class="sc-dmyDGi fVFhvg"
+                    src="undefined/v5CfpzxoJDkZxjZAizClFdlEF0U.jpg"
+                  />
+                </div>
+                <div
+                  class="sc-hLQRIN hoWzpa"
+                >
+                  <img
+                    alt="inner-bg-Shark Side of the Moon"
+                    class="sc-dmyDGi fVFhvg"
+                    src="undefined/v5CfpzxoJDkZxjZAizClFdlEF0U.jpg"
+                  />
+                  <div
+                    class="sc-eDLJxc hYIPLq"
+                  >
+                    Shark Side of the Moon
+                  </div>
+                  <div
+                    class="sc-jTQDnj"
+                  >
+                    Decades ago, the USSR developed unkillable sharks and launched them to the moon. Today, a team of American astronauts will endure the fight of their lives.
+                  </div>
+                  <div
+                    class="sc-gLLvby dHgdeZ"
+                  >
+                    <strong>
+                      Rating
+                    </strong>
+                    5.40
+                     of 
+                    69
+                     votes
+                  </div>
+                  <div
+                    class="sc-gLLvby dHgdeZ"
+                  >
+                    <strong>
+                      Release Date
+                    </strong>
+                    12/08/2022
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active"
+            data-index="2"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="sc-iBdmCd feTNVU"
+                data-testid="movie-card"
+                title="A Man Called Otto"
+              >
+                <div
+                  class="sc-guDLRT iPhJbk"
+                >
+                  <img
+                    alt="outer-bg-A Man Called Otto"
+                    class="sc-dmyDGi fVFhvg"
+                    src="undefined/130H1gap9lFfiTF9iDrqNIkFvC9.jpg"
+                  />
+                </div>
+                <div
+                  class="sc-hLQRIN hoWzpa"
+                >
+                  <img
+                    alt="inner-bg-A Man Called Otto"
+                    class="sc-dmyDGi fVFhvg"
+                    src="undefined/130H1gap9lFfiTF9iDrqNIkFvC9.jpg"
+                  />
+                  <div
+                    class="sc-eDLJxc hYIPLq"
+                  >
+                    A Man Called Otto
+                  </div>
+                  <div
+                    class="sc-jTQDnj"
+                  >
+                    When a lively young family moves in next door, grumpy widower Otto Anderson meets his match in a quick-witted, pregnant woman named Marisol, leading to an unlikely friendship that turns his world upside down.
+                  </div>
+                  <div
+                    class="sc-gLLvby dHgdeZ"
+                  >
+                    <strong>
+                      Rating
+                    </strong>
+                    7.90
+                     of 
+                    616
+                     votes
+                  </div>
+                  <div
+                    class="sc-gLLvby dHgdeZ"
+                  >
+                    <strong>
+                      Release Date
+                    </strong>
+                    28/12/2022
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="false"
+            class="slick-slide slick-active"
+            data-index="3"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          >
+            <div>
+              <div
+                class="sc-iBdmCd feTNVU"
+                data-testid="movie-card"
+                title="Creed III"
+              >
+                <div
+                  class="sc-guDLRT iPhJbk"
+                >
+                  <img
+                    alt="outer-bg-Creed III"
+                    class="sc-dmyDGi fVFhvg"
+                    src="undefined/vJU3rXSP9hwUuLeq8IpfsJShLOk.jpg"
+                  />
+                </div>
+                <div
+                  class="sc-hLQRIN hoWzpa"
+                >
+                  <img
+                    alt="inner-bg-Creed III"
+                    class="sc-dmyDGi fVFhvg"
+                    src="undefined/vJU3rXSP9hwUuLeq8IpfsJShLOk.jpg"
+                  />
+                  <div
+                    class="sc-eDLJxc hYIPLq"
+                  >
+                    Creed III
+                  </div>
+                  <div
+                    class="sc-jTQDnj"
+                  >
+                    After dominating the boxing world, Adonis Creed has been thriving in both his career and family life. When a childhood friend and former boxing prodigy, Damien Anderson, resurfaces after serving a long sentence in prison, he is eager to prove that he deserves his shot in the ring. The face-off between former friends is more than just a fight. To settle the score, Adonis must put his future on the line to battle Damien - a fighter who has nothing to lose.
+                  </div>
+                  <div
+                    class="sc-gLLvby dHgdeZ"
+                  >
+                    <strong>
+                      Rating
+                    </strong>
+                    7.00
+                     of 
+                    272
+                     votes
+                  </div>
+                  <div
+                    class="sc-gLLvby dHgdeZ"
+                  >
+                    <strong>
+                      Release Date
+                    </strong>
+                    01/03/2023
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            aria-hidden="true"
+            class="slick-slide"
+            data-index="4"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          />
+          <div
+            aria-hidden="true"
+            class="slick-slide"
+            data-index="5"
+            style="outline: none; width: 0px;"
+            tabindex="-1"
+          />
+        </div>
+      </div>
+      <button
+        class="sc-jsEegt djBNMM slick-arrow slick-next"
+        data-role="none"
+        style="display: block;"
+      >
+        <svg
+          aria-hidden="true"
+          aria-label="Next Movie"
+          class="StyledIconBase-sc-ea9ulj-0 kEyKEb"
+          fill="currentColor"
+          focusable="false"
+          height="25"
+          viewBox="0 0 24 24"
+          width="25"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M6.23 20.23 8 22l10-10L8 2 6.23 3.77 14.46 12z"
+          />
+        </svg>
+      </button>
+    </div>
+  </section>
+</div>
+`;

@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { MovieProps } from 'models/movie';
 import * as S from './styles';
 import Card from 'components/generics/Card';
-import { truncateText } from 'utils/formatters/truncateText';
 import { dateFormatter } from 'utils/formatters/dateFormatter';
 
 export type MovieCardProps = Pick<
@@ -27,21 +26,35 @@ const MovieCard = ({
   const [isFlippable, setIsFlippable] = useState(false);
 
   return (
-    <Card isFlippable={isFlippable} title={title} data-testid="movie-card">
+    <Card
+      isFlippable={isFlippable}
+      title={title}
+      onFlip={() => setIsFlippable(false)}
+      data-testid="movie-card"
+    >
       <S.PosterWrapper onClick={() => setIsFlippable(true)}>
         <S.Image
-          src={`${process.env.REACT_APP_POSTER_URL}${poster_path}`}
-          alt={title}
+          src={`${
+            poster_path
+              ? `${process.env.REACT_APP_POSTER_URL}${poster_path}`
+              : 'https://loremflickr.com/300/450'
+          }`}
+          alt={`outer-bg-${title}`}
         />
       </S.PosterWrapper>
 
       <S.ContentWrapper>
+        <S.Image
+          src={`${
+            poster_path
+              ? `${process.env.REACT_APP_POSTER_URL}${poster_path}`
+              : 'https://loremflickr.com/300/450'
+          }`}
+          alt={`inner-bg-${title}`}
+        />
         <S.Title>{title}</S.Title>
 
-        <S.Description>
-          {truncateText(overview, 320)}
-          {overview.length > 320 && <S.ReadMore>Read more</S.ReadMore>}
-        </S.Description>
+        <S.Description>{overview}</S.Description>
 
         <S.AdditionalInfo>
           <strong>Rating</strong>

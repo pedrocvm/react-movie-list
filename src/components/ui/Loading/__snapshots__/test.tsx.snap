@@ -1,0 +1,511 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Loading /> should render correctly 1`] = `
+<div
+  class="sc-beySbM iQdRlG"
+>
+  <svg
+    height="100px"
+    preserveAspectRatio="xMidYMid"
+    viewBox="0 0 100 100"
+    width="100px"
+  >
+    <defs>
+      <filter
+        color-interpolation-filters="sRGB"
+        height="300%"
+        id="ldio-ynlupy27tln-filter"
+        width="300%"
+        x="-100%"
+        y="-100%"
+      >
+        <fegaussianblur
+          in="SourceGraphic"
+          stdDeviation="3"
+        />
+        <fecomponenttransfer
+          result="cutoff"
+        >
+          <fefunca
+            intercept="-40"
+            slope="60"
+            type="linear"
+          />
+        </fecomponenttransfer>
+      </filter>
+    </defs>
+    <g
+      filter="url(#ldio-ynlupy27tln-filter)"
+    >
+      <animatetransform
+        attributeName="transform"
+        dur="3.0303030303030303s"
+        keyTimes="0;1"
+        repeatCount="indefinite"
+        type="rotate"
+        values="0 50 50;360 50 50"
+      />
+      <g>
+        <g
+          transform="translate(50 20)"
+        >
+          <circle
+            cx="0"
+            cy="0"
+            fill="undefined"
+            r="0"
+            transform="scale(0.5)"
+          />
+        </g>
+        <animatetransform
+          attributeName="transform"
+          calcMode="spline"
+          dur="1.0101010101010102"
+          keySplines="0.7666666666666666 0 0.6666666666666666 1"
+          keyTimes="0;1"
+          repeatCount="indefinite"
+          type="rotate"
+          values="0 50 50;360 50 50"
+        />
+      </g>
+      <g>
+        <g
+          transform="translate(50 20)"
+        >
+          <circle
+            cx="0"
+            cy="0"
+            fill="#fafafa"
+            r="1"
+            transform="scale(0.5)"
+          />
+        </g>
+        <animatetransform
+          attributeName="transform"
+          calcMode="spline"
+          dur="1.0101010101010102"
+          keySplines="0.7333333333333333 0 0.6333333333333333 1"
+          keyTimes="0;1"
+          repeatCount="indefinite"
+          type="rotate"
+          values="0 50 50;360 50 50"
+        />
+      </g>
+      <g>
+        <g
+          transform="translate(50 20)"
+        >
+          <circle
+            cx="0"
+            cy="0"
+            fill="#fafafa"
+            r="2"
+            transform="scale(0.5)"
+          />
+        </g>
+        <animatetransform
+          attributeName="transform"
+          calcMode="spline"
+          dur="1.0101010101010102"
+          keySplines="0.7 0 0.6 1"
+          keyTimes="0;1"
+          repeatCount="indefinite"
+          type="rotate"
+          values="0 50 50;360 50 50"
+        />
+      </g>
+      <g>
+        <g
+          transform="translate(50 20)"
+        >
+          <circle
+            cx="0"
+            cy="0"
+            fill="#fafafa"
+            r="3"
+            transform="scale(0.5)"
+          />
+        </g>
+        <animatetransform
+          attributeName="transform"
+          calcMode="spline"
+          dur="1.0101010101010102"
+          keySplines="0.6666666666666666 0 0.5666666666666667 1"
+          keyTimes="0;1"
+          repeatCount="indefinite"
+          type="rotate"
+          values="0 50 50;360 50 50"
+        />
+      </g>
+      <g>
+        <g
+          transform="translate(50 20)"
+        >
+          <circle
+            cx="0"
+            cy="0"
+            fill="#fafafa"
+            r="4"
+            transform="scale(0.5)"
+          />
+        </g>
+        <animatetransform
+          attributeName="transform"
+          calcMode="spline"
+          dur="1.0101010101010102"
+          keySplines="0.6333333333333333 0 0.5333333333333333 1"
+          keyTimes="0;1"
+          repeatCount="indefinite"
+          type="rotate"
+          values="0 50 50;360 50 50"
+        />
+      </g>
+      <g>
+        <g
+          transform="translate(50 20)"
+        >
+          <circle
+            cx="0"
+            cy="0"
+            fill="#fafafa"
+            r="5"
+            transform="scale(0.5)"
+          />
+        </g>
+        <animatetransform
+          attributeName="transform"
+          calcMode="spline"
+          dur="1.0101010101010102"
+          keySplines="0.6 0 0.5 1"
+          keyTimes="0;1"
+          repeatCount="indefinite"
+          type="rotate"
+          values="0 50 50;360 50 50"
+        />
+      </g>
+      <g>
+        <g
+          transform="translate(50 20)"
+        >
+          <circle
+            cx="0"
+            cy="0"
+            fill="#fafafa"
+            r="6"
+            transform="scale(0.5)"
+          />
+        </g>
+        <animatetransform
+          attributeName="transform"
+          calcMode="spline"
+          dur="1.0101010101010102"
+          keySplines="0.5666666666666667 0 0.4666666666666667 1"
+          keyTimes="0;1"
+          repeatCount="indefinite"
+          type="rotate"
+          values="0 50 50;360 50 50"
+        />
+      </g>
+      <g>
+        <g
+          transform="translate(50 20)"
+        >
+          <circle
+            cx="0"
+            cy="0"
+            fill="#f231a5"
+            r="7"
+            transform="scale(0.5)"
+          />
+        </g>
+        <animatetransform
+          attributeName="transform"
+          calcMode="spline"
+          dur="1.0101010101010102"
+          keySplines="0.5333333333333333 0 0.43333333333333335 1"
+          keyTimes="0;1"
+          repeatCount="indefinite"
+          type="rotate"
+          values="0 50 50;360 50 50"
+        />
+      </g>
+      <g>
+        <g
+          transform="translate(50 20)"
+        >
+          <circle
+            cx="0"
+            cy="0"
+            fill="#f231a5"
+            r="8"
+            transform="scale(0.5)"
+          />
+        </g>
+        <animatetransform
+          attributeName="transform"
+          calcMode="spline"
+          dur="1.0101010101010102"
+          keySplines="0.5 0 0.4 1"
+          keyTimes="0;1"
+          repeatCount="indefinite"
+          type="rotate"
+          values="0 50 50;360 50 50"
+        />
+      </g>
+      <g>
+        <g
+          transform="translate(50 20)"
+        >
+          <circle
+            cx="0"
+            cy="0"
+            fill="#f231a5"
+            r="9"
+            transform="scale(0.5)"
+          />
+        </g>
+        <animatetransform
+          attributeName="transform"
+          calcMode="spline"
+          dur="1.0101010101010102"
+          keySplines="0.4666666666666667 0 0.36666666666666664 1"
+          keyTimes="0;1"
+          repeatCount="indefinite"
+          type="rotate"
+          values="0 50 50;360 50 50"
+        />
+      </g>
+      <g>
+        <g
+          transform="translate(50 20)"
+        >
+          <circle
+            cx="0"
+            cy="0"
+            fill="#f231a5"
+            r="10"
+            transform="scale(0.5)"
+          />
+        </g>
+        <animatetransform
+          attributeName="transform"
+          calcMode="spline"
+          dur="1.0101010101010102"
+          keySplines="0.43333333333333335 0 0.3333333333333333 1"
+          keyTimes="0;1"
+          repeatCount="indefinite"
+          type="rotate"
+          values="0 50 50;360 50 50"
+        />
+      </g>
+      <g>
+        <g
+          transform="translate(50 20)"
+        >
+          <circle
+            cx="0"
+            cy="0"
+            fill="#f231a5"
+            r="11"
+            transform="scale(0.5)"
+          />
+        </g>
+        <animatetransform
+          attributeName="transform"
+          calcMode="spline"
+          dur="1.0101010101010102"
+          keySplines="0.4 0 0.3 1"
+          keyTimes="0;1"
+          repeatCount="indefinite"
+          type="rotate"
+          values="0 50 50;360 50 50"
+        />
+      </g>
+      <g>
+        <g
+          transform="translate(50 20)"
+        >
+          <circle
+            cx="0"
+            cy="0"
+            fill="#f231a5"
+            r="12"
+            transform="scale(0.5)"
+          />
+        </g>
+        <animatetransform
+          attributeName="transform"
+          calcMode="spline"
+          dur="1.0101010101010102"
+          keySplines="0.3666666666666667 0 0.26666666666666666 1"
+          keyTimes="0;1"
+          repeatCount="indefinite"
+          type="rotate"
+          values="0 50 50;360 50 50"
+        />
+      </g>
+      <g>
+        <g
+          transform="translate(50 20)"
+        >
+          <circle
+            cx="0"
+            cy="0"
+            fill="#f231a5"
+            r="13"
+            transform="scale(0.5)"
+          />
+        </g>
+        <animatetransform
+          attributeName="transform"
+          calcMode="spline"
+          dur="1.0101010101010102"
+          keySplines="0.33333333333333337 0 0.23333333333333334 1"
+          keyTimes="0;1"
+          repeatCount="indefinite"
+          type="rotate"
+          values="0 50 50;360 50 50"
+        />
+      </g>
+      <g>
+        <g
+          transform="translate(50 20)"
+        >
+          <circle
+            cx="0"
+            cy="0"
+            fill="#f231a5"
+            r="14"
+            transform="scale(0.5)"
+          />
+        </g>
+        <animatetransform
+          attributeName="transform"
+          calcMode="spline"
+          dur="1.0101010101010102"
+          keySplines="0.30000000000000004 0 0.2 1"
+          keyTimes="0;1"
+          repeatCount="indefinite"
+          type="rotate"
+          values="0 50 50;360 50 50"
+        />
+      </g>
+      <g>
+        <g
+          transform="translate(50 20)"
+        >
+          <circle
+            cx="0"
+            cy="0"
+            fill="#f231a5"
+            r="15"
+            transform="scale(0.5)"
+          />
+        </g>
+        <animatetransform
+          attributeName="transform"
+          calcMode="spline"
+          dur="1.0101010101010102"
+          keySplines="0.26666666666666666 0 0.16666666666666666 1"
+          keyTimes="0;1"
+          repeatCount="indefinite"
+          type="rotate"
+          values="0 50 50;360 50 50"
+        />
+      </g>
+      <g>
+        <g
+          transform="translate(50 20)"
+        >
+          <circle
+            cx="0"
+            cy="0"
+            fill="#f231a5"
+            r="16"
+            transform="scale(0.5)"
+          />
+        </g>
+        <animatetransform
+          attributeName="transform"
+          calcMode="spline"
+          dur="1.0101010101010102"
+          keySplines="0.23333333333333334 0 0.13333333333333333 1"
+          keyTimes="0;1"
+          repeatCount="indefinite"
+          type="rotate"
+          values="0 50 50;360 50 50"
+        />
+      </g>
+      <g>
+        <g
+          transform="translate(50 20)"
+        >
+          <circle
+            cx="0"
+            cy="0"
+            fill="#f231a5"
+            r="17"
+            transform="scale(0.5)"
+          />
+        </g>
+        <animatetransform
+          attributeName="transform"
+          calcMode="spline"
+          dur="1.0101010101010102"
+          keySplines="0.2 0 0.1 1"
+          keyTimes="0;1"
+          repeatCount="indefinite"
+          type="rotate"
+          values="0 50 50;360 50 50"
+        />
+      </g>
+      <g>
+        <g
+          transform="translate(50 20)"
+        >
+          <circle
+            cx="0"
+            cy="0"
+            fill="#f231a5"
+            r="18"
+            transform="scale(0.5)"
+          />
+        </g>
+        <animatetransform
+          attributeName="transform"
+          calcMode="spline"
+          dur="1.0101010101010102"
+          keySplines="0.16666666666666669 0 0.06666666666666667 1"
+          keyTimes="0;1"
+          repeatCount="indefinite"
+          type="rotate"
+          values="0 50 50;360 50 50"
+        />
+      </g>
+      <g>
+        <g
+          transform="translate(50 20)"
+        >
+          <circle
+            cx="0"
+            cy="0"
+            fill="#f231a5"
+            r="19"
+            transform="scale(0.5)"
+          />
+        </g>
+        <animatetransform
+          attributeName="transform"
+          calcMode="spline"
+          dur="1.0101010101010102"
+          keySplines="0.13333333333333333 0 0.03333333333333333 1"
+          keyTimes="0;1"
+          repeatCount="indefinite"
+          type="rotate"
+          values="0 50 50;360 50 50"
+        />
+      </g>
+    </g>
+  </svg>
+</div>
+`;

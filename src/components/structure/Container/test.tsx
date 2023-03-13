@@ -18,7 +18,7 @@ describe('<Container />', () => {
 
     expect(container.firstChild).toMatchInlineSnapshot(`
       <div
-        class="sc-beySbM kgjdKr"
+        class="sc-beySbM cNRsmj"
       >
         <h1>
           Movies

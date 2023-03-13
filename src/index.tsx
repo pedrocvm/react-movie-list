@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router } from 'react-router-dom';
+import { QueryClient, QueryClientProvider } from 'react-query';
 import { ThemeProvider } from 'styled-components';
 import reportWebVitals from './reportWebVitals';
 import GlobalStyles from 'styles/global';
@@ -10,13 +11,18 @@ import App from './App';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
+const queryClient = new QueryClient();
+
 root.render(
   <React.StrictMode>
     <ThemeProvider theme={theme}>
-      <Router>
-        <GlobalStyles />
-        <App />
-      </Router>
+      <QueryClientProvider client={queryClient}>
+        <Router>
+          <GlobalStyles />
+          <App />
+        </Router>
+      </QueryClientProvider>
     </ThemeProvider>
   </React.StrictMode>
 );

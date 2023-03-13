@@ -25,6 +25,12 @@ export const ContentWrapper = styled.div`
     flex-direction: column;
     gap: ${theme.spacings.small};
     background-color: ${theme.colors.white};
+
+    ${Image} {
+      position: absolute;
+      inset: 0;
+      opacity: 0.2;
+    }
   `}
 `;
 
@@ -36,20 +42,6 @@ export const Title = styled.div`
 `;
 
 export const Description = styled.div``;
-
-export const ReadMore = styled.a`
-  ${({ theme }) => css`
-    font-size: ${theme.font.sizes.small};
-    color: ${theme.colors.primary};
-    cursor: pointer;
-    margin-left: ${theme.spacings.xxsmall};
-    transition: ${theme.transition.fast};
-
-    &:hover {
-      color: ${theme.colors.secondary};
-    }
-  `}
-`;
 
 export const AdditionalInfo = styled.div`
   ${({ theme }) => css`
