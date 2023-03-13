@@ -4,9 +4,11 @@ import { renderWithTheme } from 'utils/tests/helpers';
 import Header from '.';
 
 describe('<Header />', () => {
-  it('should render the heading', () => {
+  it('should render the logo', () => {
     renderWithTheme(<Header />);
 
-    expect(screen.getByText(/movie list/i)).toBeInTheDocument();
+    expect(
+      screen.getByRole('img', { name: /movie list logo/i })
+    ).toBeInTheDocument();
   });
 });

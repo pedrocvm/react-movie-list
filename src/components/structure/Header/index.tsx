@@ -3,7 +3,7 @@ import * as S from './styles';
 
 const Header = () => (
   <S.Wrapper>
-    <h1>Movie List</h1>
+    <img src="/img/logo.png" alt="movie list logo" />
   </S.Wrapper>
 );
 
