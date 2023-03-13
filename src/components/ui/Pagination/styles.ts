@@ -1,13 +1,27 @@
 import styled, { css } from 'styled-components';
 import * as ButtonStyles from 'components/generics/Button/styles';
+import media from 'styled-media-query';
 
 export const Wrapper = styled.div`
+  ${({ theme }) => css`
+    margin-top: ${theme.spacings.small};
+    display: flex;
+    gap: ${theme.spacings.xxsmall};
+    align-items: center;
+    justify-content: center;
+  `}
+`;
+
+export const PageSelectorWrapper = styled.div`
   ${({ theme }) => css`
     display: flex;
     gap: ${theme.spacings.xxsmall};
     align-items: center;
     justify-content: center;
-    margin-top: ${theme.spacings.small};
+
+    ${media.lessThan('medium')`
+      display: none;
+    `}
   `}
 `;
 

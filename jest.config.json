@@ -15,7 +15,8 @@
     "!src/hooks/**/*.ts",
     "!src/types/**/*.d.ts",
     "!src/App.tsx",
-    "!src/index.tsx"
+    "!src/index.tsx",
+    "!src/reportWebVitals.ts"
   ],
   "testMatch": ["<rootDir>/src/**/**/test.ts(x)?"],
   "setupFilesAfterEnv": ["<rootDir>/.jest/setup.ts"],

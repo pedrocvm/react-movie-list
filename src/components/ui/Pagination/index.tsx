@@ -45,34 +45,36 @@ const Pagination = ({
         />
       </S.PageSelector>
 
-      {currentPage >= 7 && (
-        <>
-          <S.PageSelector>
-            <Button rounded onClick={() => onPaginate(1)}>
-              1
+      <S.PageSelectorWrapper>
+        {currentPage >= 7 && (
+          <>
+            <S.PageSelector>
+              <Button rounded onClick={() => onPaginate(1)}>
+                1
+              </Button>
+            </S.PageSelector>
+            ...
+          </>
+        )}
+        {pageSelectors.map((page) => (
+          <S.PageSelector key={page} selected={page === currentPage}>
+            <Button rounded onClick={() => onPaginate(page)}>
+              {page}
             </Button>
           </S.PageSelector>
-          ...
-        </>
-      )}
-      {pageSelectors.map((page) => (
-        <S.PageSelector key={page} selected={page === currentPage}>
-          <Button rounded onClick={() => onPaginate(page)}>
-            {page}
-          </Button>
-        </S.PageSelector>
-      ))}
+        ))}
 
-      {currentPage <= totalPages - 5 && (
-        <>
-          ...
-          <S.PageSelector>
-            <Button rounded onClick={() => onPaginate(totalPages)}>
-              {totalPages}
-            </Button>
-          </S.PageSelector>
-        </>
-      )}
+        {currentPage <= totalPages - 5 && (
+          <>
+            ...
+            <S.PageSelector>
+              <Button rounded onClick={() => onPaginate(totalPages)}>
+                {totalPages}
+              </Button>
+            </S.PageSelector>
+          </>
+        )}
+      </S.PageSelectorWrapper>
 
       <S.PageSelector>
         <Button
