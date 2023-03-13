@@ -24,7 +24,11 @@ export const getMovies = async (
     params
   });
 
-  return { results, total_pages, total_results };
+  return {
+    results,
+    total_pages: total_pages >= 500 ? 500 : total_pages,
+    total_results
+  };
 };
 
 export const getMostPopularMovies = async (): Promise<MovieProps[]> => {
