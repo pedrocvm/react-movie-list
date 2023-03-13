@@ -62,7 +62,7 @@ exports[`<MovieCardSlider /> should render with 4 active items 1`] = `
                   />
                 </div>
                 <div
-                  class="sc-hLQRIN hoWzpa"
+                  class="sc-hLQRIN frZKtN"
                 >
                   <img
                     alt="inner-bg-Black Panther: Wakanda Forever"
@@ -125,7 +125,7 @@ exports[`<MovieCardSlider /> should render with 4 active items 1`] = `
                   />
                 </div>
                 <div
-                  class="sc-hLQRIN hoWzpa"
+                  class="sc-hLQRIN frZKtN"
                 >
                   <img
                     alt="inner-bg-Shark Side of the Moon"
@@ -188,7 +188,7 @@ exports[`<MovieCardSlider /> should render with 4 active items 1`] = `
                   />
                 </div>
                 <div
-                  class="sc-hLQRIN hoWzpa"
+                  class="sc-hLQRIN frZKtN"
                 >
                   <img
                     alt="inner-bg-A Man Called Otto"
@@ -251,7 +251,7 @@ exports[`<MovieCardSlider /> should render with 4 active items 1`] = `
                   />
                 </div>
                 <div
-                  class="sc-hLQRIN hoWzpa"
+                  class="sc-hLQRIN frZKtN"
                 >
                   <img
                     alt="inner-bg-Creed III"

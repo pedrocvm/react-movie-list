@@ -25,11 +25,16 @@ export const ContentWrapper = styled.div`
     flex-direction: column;
     gap: ${theme.spacings.small};
     background-color: ${theme.colors.white};
+    overflow: auto;
 
     ${Image} {
       position: absolute;
       inset: 0;
       opacity: 0.2;
+    }
+
+    &::-webkit-scrollbar {
+      width: 0;
     }
   `}
 `;
